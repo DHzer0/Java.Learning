@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package reaprendizado;
+import java.util.Scanner;
+/**
+ *
+ * @author Dhaniel
+ */
+public class Reaprendizado {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner entrada=new Scanner(System.in);
+      
+    
+        System.out.print("digite um valor ");
+        int valor1=entrada.nextInt();
+        
+        System.out.print("digite um segundo valor ");
+        int valor2=entrada.nextInt();
+        entrada.nextLine();
+        int soma=valor1+valor2;
+        
+       
+         if(soma>=25){
+      System.out.println("O valor da soma e "+soma);
+                     }else{
+             System.out.println("o valor da soma vai ser o total de "+soma);
+                          }  
+    }
+}
