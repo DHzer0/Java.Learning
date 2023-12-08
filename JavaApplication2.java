@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Dhaniel
+ * @author DhZer0
  */
 public class JavaApplication2 {
 
