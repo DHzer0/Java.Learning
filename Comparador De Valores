@@ -1,0 +1,46 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package comparador.de.valores;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Dhaniel
+ */
+public class ComparadorDeValores {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner entrada=new Scanner(System.in);
+        int maiorvalor=0,menorvalor=0;
+        
+        
+       System.out.print(" Insira um valor ");
+         int v1=entrada.nextInt();
+        System.out.print(" Insira um segundo valor ");
+         int v2=entrada.nextInt();
+         if(v1>v2){
+         maiorvalor=v1;
+         menorvalor=v2;         }
+         else{
+              maiorvalor=v2;
+              menorvalor=v1;
+         }
+         System.out.println("o maior valor e "+maiorvalor+" ,ja o menor valor e "+menorvalor);
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
