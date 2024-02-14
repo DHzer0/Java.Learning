@@ -1,0 +1,56 @@
+package exercicio.pkg2;
+import java.util.Scanner;
+/**
+ *
+ * @author Dhz
+ */
+public class Exercicio2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       Scanner mn=new Scanner(System.in);
+       String operacao;
+       int resultado=0,valor1,valor2;
+        
+       
+       System.out.print(" Digite um valor ");
+       valor1=mn.nextInt();
+       System.out.print(" Digite outro valor ");
+        valor2=mn.nextInt();
+       
+       
+       System.out.println("qual operacao você deseja fazer?");
+       System.out.println("Multiplicacao(*)");
+       System.out.println("divisao(/)");
+       System.out.println("soma(+)");
+       System.out.println("Subtracao(-)");
+       operacao=mn.next();
+       if(operacao.equals("*")){ resultado=valor1*valor2;
+       }
+       if(operacao.equals("/")){resultado=valor1/valor2;
+       }
+       if(operacao.equals("+")){resultado=valor1+valor2;
+       }
+       if(operacao.equals("-")){resultado=valor1-valor2;
+       }
+          System.out.println(resultado);
+      
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
